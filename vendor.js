@@ -155,13 +155,20 @@ Vue._Gmap = VueGoogleMaps;
 // })
 
 
+//---ok-----
 import VueQrcode from '@chenfengyuan/vue-qrcode';
 Vue._VueQrcode = VueQrcode;
 Vue.component(VueQrcode.name, VueQrcode);
 
+//---ok-----
 import VueBarcode from '@chenfengyuan/vue-barcode';
 Vue._VueBarcode = VueBarcode;
 Vue.component(VueBarcode.name, VueBarcode);
+
+//---ok-----
+import facebookLogin from 'facebook-login-vuejs';
+Vue._facebookLogin = facebookLogin;
+Vue.component('facebook-login', facebookLogin);
 
 console.log('windows--->', window);
 // console.log('windows--->', window);
