@@ -1,0 +1,28 @@
+{
+    "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+    "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+    "profile": { "name": "typicode" },
+    "users": [{
+            "email": "admin@admin.com",
+            "password": "secret",
+            "isAdmin": 1,
+            "name": "Mr.Tan Angular"
+        },
+        {
+            "email": "user@admin.com",
+            "password": "secret",
+            "isAdmin": 0,
+            "name": "Thongchai L"
+        }
+    ],
+    "crudmodule": {
+        "namespaced": true,
+        "name": "aa",
+        "state": {
+            "count": 0,
+            "name": "aa",
+            "data": [{ "a": "aaa", "a": "bbbb" }],
+            "cols": [{ "label": "A", "key": "a" }]
+        }
+    }
+}
